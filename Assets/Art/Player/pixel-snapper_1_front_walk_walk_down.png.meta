@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 26c5479cf5f7d4f45b8d8457293109a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2928500636532321954
+    second: pixel-snapper_1_front_walk_walk_down_0
+  - first:
+      213: -6215812213143880664
+    second: pixel-snapper_1_front_walk_walk_down_1
+  - first:
+      213: 1330849328864228753
+    second: pixel-snapper_1_front_walk_walk_down_2
+  - first:
+      213: 553747875204198936
+    second: pixel-snapper_1_front_walk_walk_down_3
+  - first:
+      213: 3164184126854272946
+    second: pixel-snapper_1_front_walk_walk_down_4
+  - first:
+      213: -5598504575393767689
+    second: pixel-snapper_1_front_walk_walk_down_5
+  - first:
+      213: 77544963336642961
+    second: pixel-snapper_1_front_walk_walk_down_6
+  - first:
+      213: 7919697497824748424
+    second: pixel-snapper_1_front_walk_walk_down_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aea30520df14a820800000000000000
+      internalID: 2928500636532321954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c360599bffcb9a0800000000000000
+      internalID: -6215812213143880664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2
+        width: 37
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195f488d960287210800000000000000
+      internalID: 1330849328864228753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8127ca432ce4fa700800000000000000
+      internalID: 553747875204198936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 40
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b71415e2b079eb20800000000000000
+      internalID: 3164184126854272946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 39
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe514630cd1e42b0800000000000000
+      internalID: -5598504575393767689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_6
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1
+        width: 36
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1912dc9bbbe731100800000000000000
+      internalID: 77544963336642961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-snapper_1_front_walk_walk_down_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 4
+        width: 39
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883e466f9ea68ed60800000000000000
+      internalID: 7919697497824748424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixel-snapper_1_front_walk_walk_down_0: 2928500636532321954
+      pixel-snapper_1_front_walk_walk_down_1: -6215812213143880664
+      pixel-snapper_1_front_walk_walk_down_2: 1330849328864228753
+      pixel-snapper_1_front_walk_walk_down_3: 553747875204198936
+      pixel-snapper_1_front_walk_walk_down_4: 3164184126854272946
+      pixel-snapper_1_front_walk_walk_down_5: -5598504575393767689
+      pixel-snapper_1_front_walk_walk_down_6: 77544963336642961
+      pixel-snapper_1_front_walk_walk_down_7: 7919697497824748424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

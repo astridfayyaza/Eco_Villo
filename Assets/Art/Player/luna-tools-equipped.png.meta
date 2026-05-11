@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: d107889add96e9f46ab9d9e07f35e534
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5938821880131384556
+    second: luna-tools-equipped_0
+  - first:
+      213: 6971789777976529985
+    second: luna-tools-equipped_1
+  - first:
+      213: 4902223269736555705
+    second: luna-tools-equipped_2
+  - first:
+      213: 7006813108203609809
+    second: luna-tools-equipped_3
+  - first:
+      213: 2356371746688926721
+    second: luna-tools-equipped_4
+  - first:
+      213: 5444414506165367820
+    second: luna-tools-equipped_5
+  - first:
+      213: -4283063781023952972
+    second: luna-tools-equipped_6
+  - first:
+      213: 4575936256762110592
+    second: luna-tools-equipped_7
+  - first:
+      213: -8973837420867563188
+    second: luna-tools-equipped_8
+  - first:
+      213: -8812034377988517438
+    second: luna-tools-equipped_9
+  - first:
+      213: -819634718295085405
+    second: luna-tools-equipped_10
+  - first:
+      213: 9124061293439106026
+    second: luna-tools-equipped_11
+  - first:
+      213: 7921909082322721681
+    second: luna-tools-equipped_12
+  - first:
+      213: 5246011009846531461
+    second: luna-tools-equipped_13
+  - first:
+      213: -8132688781885517875
+    second: luna-tools-equipped_14
+  - first:
+      213: -1954948252927884498
+    second: luna-tools-equipped_15
+  - first:
+      213: 2104712052231848793
+    second: luna-tools-equipped_16
+  - first:
+      213: 5258772968970857973
+    second: luna-tools-equipped_17
+  - first:
+      213: 2760498605640150554
+    second: luna-tools-equipped_18
+  - first:
+      213: 1879099157016948984
+    second: luna-tools-equipped_19
+  - first:
+      213: 1483545705496185036
+    second: luna-tools-equipped_20
+  - first:
+      213: -1212986391559707811
+    second: luna-tools-equipped_21
+  - first:
+      213: -1071207422413645772
+    second: luna-tools-equipped_22
+  - first:
+      213: 5987999296115011115
+    second: luna-tools-equipped_23
+  - first:
+      213: 4076897442518826976
+    second: luna-tools-equipped_24
+  - first:
+      213: -7409762528822708708
+    second: luna-tools-equipped_25
+  - first:
+      213: 1612343180903130713
+    second: luna-tools-equipped_26
+  - first:
+      213: 826274681092771377
+    second: luna-tools-equipped_27
+  - first:
+      213: 7315505645805571968
+    second: luna-tools-equipped_28
+  - first:
+      213: -4827289462556032290
+    second: luna-tools-equipped_29
+  - first:
+      213: 6060906113873528314
+    second: luna-tools-equipped_30
+  - first:
+      213: -4010063659688099435
+    second: luna-tools-equipped_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luna-tools-equipped_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 520
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b837a17f0159da0800000000000000
+      internalID: -5938821880131384556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 520
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1449dfc6dd5c0c060800000000000000
+      internalID: 6971789777976529985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 519
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b42d4a3712380440800000000000000
+      internalID: 4902223269736555705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 520
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ded602f5633d3160800000000000000
+      internalID: 7006813108203609809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 436
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10409287e9383b020800000000000000
+      internalID: 2356371746688926721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 436
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0478f9c5227e8b40800000000000000
+      internalID: 5444414506165367820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 435
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfc9bd0f208f84c0800000000000000
+      internalID: -4283063781023952972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 435
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082e22bf7cdf08f30800000000000000
+      internalID: 4575936256762110592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 351
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41d4114966867380800000000000000
+      internalID: -8973837420867563188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 352
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1d67fdb6d55b580800000000000000
+      internalID: -8812034377988517438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 349
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea17af09210a4f0800000000000000
+      internalID: -819634718295085405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 350
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb3450b76d2f9e70800000000000000
+      internalID: 9124061293439106026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 269
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b59ca965640fd60800000000000000
+      internalID: 7921909082322721681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 271
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585d0b908339dc840800000000000000
+      internalID: 5246011009846531461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 269
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfc8e644a2e22f80800000000000000
+      internalID: -8132688781885517875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 269
+        width: 92
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2386f5fbe0aed4e0800000000000000
+      internalID: -1954948252927884498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 186
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95343c3d570753d10800000000000000
+      internalID: 2104712052231848793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 186
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd2fe1372aeaf840800000000000000
+      internalID: 5258772968970857973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 195
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e64282bd24f4620800000000000000
+      internalID: 2760498605640150554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 184
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f03bb73ab6e31a10800000000000000
+      internalID: 1879099157016948984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 185
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8082085fc969410800000000000000
+      internalID: 1483545705496185036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 100
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5363b5bd4b9a2fe0800000000000000
+      internalID: -1212986391559707811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 99
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438d54a568e4221f0800000000000000
+      internalID: -1071207422413645772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 98
+        width: 83
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e693052a5a91350800000000000000
+      internalID: 5987999296115011115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 101
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7807af9c049830800000000000000
+      internalID: 4076897442518826976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 153
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16b5871d3c3b2990800000000000000
+      internalID: -7409762528822708708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 148
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95621c99491306610800000000000000
+      internalID: 1612343180903130713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 108
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e0f65d174877b00800000000000000
+      internalID: 826274681092771377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 11
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f0b9a20a5e58560800000000000000
+      internalID: 7315505645805571968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_29
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 11
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed28c545fc5020db0800000000000000
+      internalID: -4827289462556032290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 83
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5cc6e9ff9ac1450800000000000000
+      internalID: 6060906113873528314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luna-tools-equipped_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 11
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591869509546958c0800000000000000
+      internalID: -4010063659688099435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      luna-tools-equipped_0: -5938821880131384556
+      luna-tools-equipped_1: 6971789777976529985
+      luna-tools-equipped_10: -819634718295085405
+      luna-tools-equipped_11: 9124061293439106026
+      luna-tools-equipped_12: 7921909082322721681
+      luna-tools-equipped_13: 5246011009846531461
+      luna-tools-equipped_14: -8132688781885517875
+      luna-tools-equipped_15: -1954948252927884498
+      luna-tools-equipped_16: 2104712052231848793
+      luna-tools-equipped_17: 5258772968970857973
+      luna-tools-equipped_18: 2760498605640150554
+      luna-tools-equipped_19: 1879099157016948984
+      luna-tools-equipped_2: 4902223269736555705
+      luna-tools-equipped_20: 1483545705496185036
+      luna-tools-equipped_21: -1212986391559707811
+      luna-tools-equipped_22: -1071207422413645772
+      luna-tools-equipped_23: 5987999296115011115
+      luna-tools-equipped_24: 4076897442518826976
+      luna-tools-equipped_25: -7409762528822708708
+      luna-tools-equipped_26: 1612343180903130713
+      luna-tools-equipped_27: 826274681092771377
+      luna-tools-equipped_28: 7315505645805571968
+      luna-tools-equipped_29: -4827289462556032290
+      luna-tools-equipped_3: 7006813108203609809
+      luna-tools-equipped_30: 6060906113873528314
+      luna-tools-equipped_31: -4010063659688099435
+      luna-tools-equipped_4: 2356371746688926721
+      luna-tools-equipped_5: 5444414506165367820
+      luna-tools-equipped_6: -4283063781023952972
+      luna-tools-equipped_7: 4575936256762110592
+      luna-tools-equipped_8: -8973837420867563188
+      luna-tools-equipped_9: -8812034377988517438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
