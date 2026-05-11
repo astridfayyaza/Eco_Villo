@@ -40,6 +40,15 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
+=======
+  - m_Name: IsMoving
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+>>>>>>> 853c6dc7144dfae524ebb5af8d2eaf27df5fea85
   - m_Name: MoveX
     m_Type: 1
     m_DefaultFloat: 0
@@ -52,12 +61,15 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
   - m_Name: IsMoving
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+=======
+>>>>>>> 853c6dc7144dfae524ebb5af8d2eaf27df5fea85
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
