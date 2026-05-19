@@ -1,18 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
-   public bool isGameActive;
-    public GameObject titleScreen;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        titleScreen.SetActive(true);
-    }
-
+{    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   
     public void StartGame()
     {
-        isGameActive = true;
-        titleScreen.SetActive(false);
+        Debug.Log("Start ditekan!");
+        SceneManager.LoadScene("Eco_Villo");
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exit ditekan!");
+        Application.Quit();
     }
 }
