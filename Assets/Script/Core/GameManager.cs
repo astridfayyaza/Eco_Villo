@@ -1,18 +1,48 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
-   public bool isGameActive;
-    public GameObject titleScreen;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+{    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   public GameObject pausePanel;
+
+    public void Update()
     {
-        titleScreen.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
     }
 
     public void StartGame()
     {
-        isGameActive = true;
-        titleScreen.SetActive(false);
+        Debug.Log("Start ditekan!");
+        SceneManager.LoadScene("Eco_Villo");
+    }
+
+    public void PauseGame()
+    {
+        Debug.Log("Pause ditekan!");
+        
+        if (!pausePanel.activeSelf)
+        {
+            pausePanel.SetActive(true);
+            Time.timeScale = 0f; 
+        } else
+        {
+            pausePanel.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void MainMenu()
+    {
+        Debug.Log("Main Menu ditekan!");
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exit ditekan!");
+        Application.Quit();
     }
 }
