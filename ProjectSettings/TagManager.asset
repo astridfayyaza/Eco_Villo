@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ocean
+    uniqueID: 2106139489
+    locked: 0
   - name: Background
     uniqueID: 3321680901
     locked: 0
