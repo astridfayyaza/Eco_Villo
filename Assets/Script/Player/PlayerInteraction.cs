@@ -19,7 +19,8 @@ public class PlayerInteraction : MonoBehaviour
             {
                 bool success = inventory.AddItem(
                     currentItem.itemName,
-                    currentItem.amount
+                    currentItem.amount,
+                    currentItem.coinValue
                 );
 
                 if (success)

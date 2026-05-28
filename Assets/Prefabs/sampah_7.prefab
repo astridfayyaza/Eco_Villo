@@ -107,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collectable
   itemName: bottle
   amount: 1
+  coinValue: 10
 --- !u!61 &-5757895637211870897
 BoxCollider2D:
   m_ObjectHideFlags: 0

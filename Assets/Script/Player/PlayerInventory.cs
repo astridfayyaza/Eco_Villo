@@ -1,37 +1,79 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class InventoryItem
+{
+    public string itemName;
+
+    public int amount;
+
+    public int coinValue;
+}
+
 public class PlayerInventory : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Dictionary<string, int> items = new Dictionary<string, int>();
+    public List<InventoryItem> items =
+        new List<InventoryItem>();
 
     public int maxCapacity = 5;
 
     public int currentAmount = 0;
 
-    public bool AddItem(string itemName, int amount)
+    public bool AddItem(
+        string itemName,
+        int amount,
+        int coinValue
+    )
     {
         if (currentAmount + amount > maxCapacity)
         {
             Debug.Log("Inventory penuh!");
+
             return false;
         }
 
-        if (items.ContainsKey(itemName))
+        InventoryItem existingItem =
+            items.Find(item =>
+                item.itemName == itemName
+            );
+
+        if (existingItem != null)
         {
-            items[itemName] += amount;
+            existingItem.amount += amount;
         }
         else
         {
-            items.Add(itemName, amount);
+            InventoryItem newItem =
+                new InventoryItem();
+
+            newItem.itemName = itemName;
+            newItem.amount = amount;
+            newItem.coinValue = coinValue;
+
+            items.Add(newItem);
         }
 
         currentAmount += amount;
 
-        Debug.Log(itemName + " = " + items[itemName]);
+        Debug.Log(
+            itemName + " x" + amount
+        );
 
         return true;
+    }
+
+    public int CalculateTotalValue()
+    {
+        int total = 0;
+
+        foreach (InventoryItem item in items)
+        {
+            total +=
+                item.amount * item.coinValue;
+        }
+
+        return total;
     }
 
     public void ClearInventory()
@@ -39,7 +81,10 @@ public class PlayerInventory : MonoBehaviour
         items.Clear();
 
         currentAmount = 0;
+    }
 
-        Debug.Log("Inventory dikosongkan");
+    public int GetTotalItems()
+    {
+        return currentAmount;
     }
 }

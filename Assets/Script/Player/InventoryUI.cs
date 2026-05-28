@@ -4,6 +4,7 @@ using UnityEngine;
 public class InventoryUI : MonoBehaviour
 {
     public PlayerInventory inventory;
+
     public TextMeshProUGUI inventoryText;
 
     void Update()
@@ -12,7 +13,11 @@ public class InventoryUI : MonoBehaviour
 
         foreach (var item in inventory.items)
         {
-            text += item.Key + ": " + item.Value + "\n";
+            text +=
+                item.itemName +
+                ": " +
+                item.amount +
+                "\n";
         }
 
         inventoryText.text = text;

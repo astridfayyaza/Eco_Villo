@@ -11,11 +11,32 @@ public class TrashBin : MonoBehaviour
                 PlayerInventory inventory =
                     collision.GetComponent<PlayerInventory>();
 
-                if (inventory != null)
-                {
-                    inventory.ClearInventory();
+                PlayerMoney money =
+                    collision.GetComponent<PlayerMoney>();
 
-                    Debug.Log("Item dibuang!");
+                if (inventory != null && money != null)
+                {
+                    int totalValue =
+                        inventory.CalculateTotalValue();
+
+                    if (totalValue > 0)
+                    {
+                        money.AddCoins(totalValue);
+
+                        inventory.ClearInventory();
+
+                        Debug.Log(
+                            "Mendapat " +
+                            totalValue +
+                            " coins!"
+                        );
+                    }
+                    else
+                    {
+                        Debug.Log(
+                            "Inventory kosong"
+                        );
+                    }
                 }
             }
         }
