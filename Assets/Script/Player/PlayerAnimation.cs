@@ -2,15 +2,22 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Animator animator;
+
+    private PlayerTools tools;
+
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+
+        tools = GetComponent<PlayerTools>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        animator.SetBool(
+            "HasVacuum",
+            tools.hasVacuum
+        );
     }
 }

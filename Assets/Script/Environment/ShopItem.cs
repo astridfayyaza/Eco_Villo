@@ -22,11 +22,15 @@ public class ShopItem : MonoBehaviour
 
                     if (success)
                     {
-                        Debug.Log(
-                            "Membeli: " + itemName
-                        );
+                        PlayerTools tools =
+                            collision.GetComponent<PlayerTools>();
 
-                        // unlock item nanti
+                        if (tools != null)
+                        {
+                            tools.hasVacuum = true;
+                        }
+
+                        Debug.Log("Vacuum berhasil dibeli");
                     }
                 }
             }
