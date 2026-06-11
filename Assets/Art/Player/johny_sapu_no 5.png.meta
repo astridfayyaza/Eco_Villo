@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: f7f45efab9ce13647842e81d50334482
+guid: 802848814f3b1504ea1b0e391081a0e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7355016724333762937
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_0
+      213: 8259218468933179017
+    second: johny_sapu_no 5_0
   - first:
-      213: 3489287800511474509
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_1
+      213: 7197759661975738007
+    second: johny_sapu_no 5_1
   - first:
-      213: 4999742781514123815
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_2
+      213: -2905455406943929260
+    second: johny_sapu_no 5_2
   - first:
-      213: -8580856175501308763
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_3
+      213: -5281738093019558333
+    second: johny_sapu_no 5_3
   - first:
-      213: 8712217611955509576
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_4
+      213: -7500928963618462457
+    second: johny_sapu_no 5_4
   - first:
-      213: 5856997545146351655
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_5
-  - first:
-      213: -485223914936725946
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_6
-  - first:
-      213: -7351187625705909231
-    second: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_7
+      213: -1053114364965742240
+    second: johny_sapu_no 5_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_0
+      name: johny_sapu_no 5_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 84
-        width: 79
-        height: 116
+        x: 7
+        y: 4
+        width: 62
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97998f20eb4421660800000000000000
-      internalID: 7355016724333762937
+      spriteID: 9869b133073ae9270800000000000000
+      internalID: 8259218468933179017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_1
+      name: johny_sapu_no 5_1
       rect:
         serializedVersion: 2
-        x: 106
-        y: 84
-        width: 82
-        height: 116
+        x: 76
+        y: 3
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4b279c74c07c6030800000000000000
-      internalID: 3489287800511474509
+      spriteID: 79613b6f64493e360800000000000000
+      internalID: 7197759661975738007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_2
+      name: johny_sapu_no 5_2
       rect:
         serializedVersion: 2
-        x: 214
-        y: 84
-        width: 79
-        height: 116
+        x: 144
+        y: 3
+        width: 61
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72a097ce197a26540800000000000000
-      internalID: 4999742781514123815
+      spriteID: 45c7e5e73bfbda7d0800000000000000
+      internalID: -2905455406943929260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_3
+      name: johny_sapu_no 5_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 84
-        width: 82
-        height: 116
+        x: 213
+        y: 3
+        width: 59
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ac078e85ccaae880800000000000000
-      internalID: -8580856175501308763
+      spriteID: 34e8be0303f73b6b0800000000000000
+      internalID: -5281738093019558333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_4
+      name: johny_sapu_no 5_4
       rect:
         serializedVersion: 2
-        x: 431
-        y: 84
-        width: 81
-        height: 116
+        x: 273
+        y: 3
+        width: 66
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 849928e32c308e870800000000000000
-      internalID: 8712217611955509576
+      spriteID: 705251669d857e790800000000000000
+      internalID: -7500928963618462457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_5
+      name: johny_sapu_no 5_5
       rect:
         serializedVersion: 2
-        x: 546
-        y: 84
-        width: 78
-        height: 116
+        x: 343
+        y: 3
+        width: 64
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,52 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72088c05c3c384150800000000000000
-      internalID: 5856997545146351655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_6
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 84
-        width: 89
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64e0ca19b632449f0800000000000000
-      internalID: -485223914936725946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_7
-      rect:
-        serializedVersion: 2
-        x: 757
-        y: 84
-        width: 89
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1145d8c7dc55bf990800000000000000
-      internalID: -7351187625705909231
+      spriteID: 0691b5090169261f0800000000000000
+      internalID: -1053114364965742240
       vertices: []
       indices: 
       edges: []
@@ -336,14 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_0: 7355016724333762937
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_1: 3489287800511474509
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_2: 4999742781514123815
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_3: -8580856175501308763
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_4: 8712217611955509576
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_5: 5856997545146351655
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_6: -485223914936725946
-      pixel-snapper_1_right_walk_walk_left_with_vaccum-removebg-preview_7: -7351187625705909231
+      johny_sapu_no 5_0: 8259218468933179017
+      johny_sapu_no 5_1: 7197759661975738007
+      johny_sapu_no 5_2: -2905455406943929260
+      johny_sapu_no 5_3: -5281738093019558333
+      johny_sapu_no 5_4: -7500928963618462457
+      johny_sapu_no 5_5: -1053114364965742240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
