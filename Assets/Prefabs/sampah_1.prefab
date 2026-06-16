@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6591805039997939464}
   - component: {fileID: -5505118421061949927}
   - component: {fileID: 1968746496680758690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sampah_1
   m_TagString: Collectable
   m_Icon: {fileID: 0}
@@ -107,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Collectable
   itemName: can
   amount: 1
+  coinValue: 5
 --- !u!61 &1968746496680758690
 BoxCollider2D:
   m_ObjectHideFlags: 0

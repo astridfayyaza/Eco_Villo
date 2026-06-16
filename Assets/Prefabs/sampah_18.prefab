@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7906502393374301501}
   - component: {fileID: -8532703153347830686}
   - component: {fileID: 7573907158310973448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sampah_18
   m_TagString: Collectable
   m_Icon: {fileID: 0}

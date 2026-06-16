@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerTools : MonoBehaviour
+public class ToolManager : MonoBehaviour
 {
     public ToolType currentTool = ToolType.None;
 

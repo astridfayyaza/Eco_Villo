@@ -13,11 +13,11 @@ public class PlayerAnimation : MonoBehaviour
         tools = GetComponent<PlayerTools>();
     }
 
-    void Update()
+     void Update()
     {
-        animator.SetBool(
-            "HasVacuum",
-            tools.hasVacuum
+        animator.SetInteger(
+            "ToolType",
+            (int)tools.currentTool
         );
     }
 }

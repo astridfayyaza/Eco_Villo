@@ -27,7 +27,9 @@ public class ShopItem : MonoBehaviour
 
                         if (tools != null)
                         {
-                            tools.hasVacuum = true;
+                            tools.EquipTool(
+                                ToolType.Vacuum
+                            );
                         }
 
                         Debug.Log("Vacuum berhasil dibeli");
