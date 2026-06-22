@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+
 
 public class GameManager : MonoBehaviour
-{    // Start is called once before the first execution of Update after the MonoBehaviour is created
-   public GameObject pausePanel;
+{
+    public GameObject pausePanel;
 
     public void Update()
     {
@@ -15,19 +17,42 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("Start ditekan!");
-        SceneManager.LoadScene("Eco_Villo");
+        StartCoroutine(StartGameRoutine());
+    }
+
+    IEnumerator StartGameRoutine()
+    {
+        UIAudioManager.Instance.PlayButtonSound();
+
+        yield return new WaitForSeconds(0.15f);
+
+        SceneManager.LoadScene("CharacterSelect");
+    }
+
+    public void LoadGame()
+    {
+        StartCoroutine(LoadGameRoutine());
+    }
+
+    IEnumerator LoadGameRoutine()
+    {
+        UIAudioManager.Instance.PlayButtonSound();
+
+        yield return new WaitForSeconds(0.15f);
+
+        SceneManager.LoadScene("LoadGame");
     }
 
     public void PauseGame()
     {
         Debug.Log("Pause ditekan!");
-        
+
         if (!pausePanel.activeSelf)
         {
             pausePanel.SetActive(true);
-            Time.timeScale = 0f; 
-        } else
+            Time.timeScale = 0f;
+        }
+        else
         {
             pausePanel.SetActive(false);
             Time.timeScale = 1f;
@@ -36,13 +61,29 @@ public class GameManager : MonoBehaviour
 
     public void MainMenu()
     {
-        Debug.Log("Main Menu ditekan!");
+        StartCoroutine(MainMenuRoutine());
+    }
+
+    IEnumerator MainMenuRoutine()
+    {
+        UIAudioManager.Instance.PlayButtonSound();
+
+        yield return new WaitForSeconds(0.15f);
+
         SceneManager.LoadScene("MainMenu");
     }
 
     public void ExitGame()
     {
-        Debug.Log("Exit ditekan!");
+        StartCoroutine(ExitRoutine());
+    }
+
+    IEnumerator ExitRoutine()
+    {
+        UIAudioManager.Instance.PlayButtonSound();
+
+        yield return new WaitForSeconds(0.15f);
+
         Application.Quit();
     }
 }
