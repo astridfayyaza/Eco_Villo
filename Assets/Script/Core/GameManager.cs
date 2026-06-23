@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.15f);
 
-        SceneManager.LoadScene("CharacterSelect");
+        SceneManager.LoadScene("Eco_Villo");
     }
 
     public void LoadGame()

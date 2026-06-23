@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: d6ca67377cc22b34fb66e2bb67cdc83c
+guid: d6d239116e27b5b45807187be16d3ef4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3283082487330190323
-    second: johny_sapu_walk_down_0
+      213: -5537838539639650953
+    second: Walk-up_with_broom_0
   - first:
-      213: -3408443673770944511
-    second: johny_sapu_walk_down_1
+      213: -6540537118915063740
+    second: Walk-up_with_broom_1
   - first:
-      213: 8853170362517077109
-    second: johny_sapu_walk_down_2
+      213: -183984132564542962
+    second: Walk-up_with_broom_2
   - first:
-      213: 8008805696544826494
-    second: johny_sapu_walk_down_3
+      213: -847201241082121145
+    second: Walk-up_with_broom_3
   - first:
-      213: 3853676858390253813
-    second: johny_sapu_walk_down_4
+      213: 8633309777758088080
+    second: Walk-up_with_broom_4
   - first:
-      213: 8151846609658584070
-    second: johny_sapu_walk_down_5
+      213: -1826129702314932615
+    second: Walk-up_with_broom_5
   - first:
-      213: -1806129117066599652
-    second: johny_sapu_walk_down_6
+      213: 4093974672226958090
+    second: Walk-up_with_broom_6
+  - first:
+      213: 732111065851719627
+    second: Walk-up_with_broom_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 22
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,185 +117,137 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: johny_sapu_walk_down_0
+      name: Walk-up_with_broom_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6
-        width: 61
-        height: 66
+        x: 13
+        y: 0
+        width: 129
+        height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0cc06e4fd52072d0800000000000000
-      internalID: -3283082487330190323
+      spriteID: 7758f4d5035a523b0800000000000000
+      internalID: -5537838539639650953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: johny_sapu_walk_down_1
+      name: Walk-up_with_broom_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 6
-        width: 59
-        height: 66
+        x: 150
+        y: 1
+        width: 129
+        height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10894f39986c2b0d0800000000000000
-      internalID: -3408443673770944511
+      spriteID: 4409fc2c4285b35a0800000000000000
+      internalID: -6540537118915063740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: johny_sapu_walk_down_2
+      name: Walk-up_with_broom_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 6
-        width: 58
-        height: 66
+        x: 288
+        y: 0
+        width: 129
+        height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57cb8d1e987ccda70800000000000000
-      internalID: 8853170362517077109
+      spriteID: e0a9e2ef76b527df0800000000000000
+      internalID: -183984132564542962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: johny_sapu_walk_down_3
+      name: Walk-up_with_broom_4
       rect:
         serializedVersion: 2
-        x: 214
-        y: 6
-        width: 58
-        height: 66
+        x: 425
+        y: 1
+        width: 130
+        height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e74eda9395ef42f60800000000000000
-      internalID: 8008805696544826494
+      spriteID: 09b6d2b608dafc770800000000000000
+      internalID: 8633309777758088080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: johny_sapu_walk_down_4
+      name: Walk-up_with_broom_5
       rect:
         serializedVersion: 2
-        x: 285
-        y: 6
-        width: 53
-        height: 66
+        x: 570
+        y: 0
+        width: 131
+        height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f09e7f5fa20b7530800000000000000
-      internalID: 3853676858390253813
+      spriteID: 9768ab306b848a6e0800000000000000
+      internalID: -1826129702314932615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: johny_sapu_walk_down_5
+      name: Walk-up_with_broom_6
       rect:
         serializedVersion: 2
-        x: 325
-        y: 20
-        width: 14
-        height: 29
+        x: 716
+        y: 0
+        width: 136
+        height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60c1c281d4d212170800000000000000
-      internalID: 8151846609658584070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: johny_sapu_walk_down_6
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 6
-        width: 59
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1361c623275fe6e0800000000000000
-      internalID: -1806129117066599652
+      spriteID: a0bb8890648b0d830800000000000000
+      internalID: 4093974672226958090
       vertices: []
       indices: 
       edges: []
@@ -301,7 +256,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea5b25f6ef3bc464281ecc002dc11eca
     internalID: 0
     vertices: []
     indices: 
@@ -311,13 +266,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      johny_sapu_walk_down_0: -3283082487330190323
-      johny_sapu_walk_down_1: -3408443673770944511
-      johny_sapu_walk_down_2: 8853170362517077109
-      johny_sapu_walk_down_3: 8008805696544826494
-      johny_sapu_walk_down_4: 3853676858390253813
-      johny_sapu_walk_down_5: 8151846609658584070
-      johny_sapu_walk_down_6: -1806129117066599652
+      Walk-up_with_broom_0: -5537838539639650953
+      Walk-up_with_broom_1: -6540537118915063740
+      Walk-up_with_broom_2: -183984132564542962
+      Walk-up_with_broom_3: -847201241082121145
+      Walk-up_with_broom_4: 8633309777758088080
+      Walk-up_with_broom_5: -1826129702314932615
+      Walk-up_with_broom_6: 4093974672226958090
+      Walk-up_with_broom_7: 732111065851719627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
