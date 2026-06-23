@@ -53,6 +53,24 @@ public class CharacterSelect : MonoBehaviour
             return;
         }
 
+
+        if (SaveSlotManager.selectedSlot == 1)
+        {
+            PlayerPrefs.SetString("SaveSlot1_Name", playerName);
+            PlayerPrefs.SetString("SaveSlot1_Character", selectedCharacter);
+            PlayerPrefs.SetString("SaveSlot1_Date",
+                System.DateTime.Now.ToString("dd/MM/yyyy HH:mm"));
+        }
+
+        if (SaveSlotManager.selectedSlot == 2)
+        {
+            PlayerPrefs.SetString("SaveSlot2_Name", playerName);
+            PlayerPrefs.SetString("SaveSlot2_Character", selectedCharacter);
+            PlayerPrefs.SetString("SaveSlot2_Date",
+                System.DateTime.Now.ToString("dd/MM/yyyy HH:mm"));
+        }
+
+        PlayerPrefs.Save();
         SceneManager.LoadScene("Eco_Villo");
     }
 }

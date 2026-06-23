@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.15f);
 
-        SceneManager.LoadScene("Eco_Villo");
+        SceneManager.LoadScene("CharacterSelect");
     }
 
     public void LoadGame()
@@ -85,5 +85,20 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.15f);
 
         Application.Quit();
+    }
+
+
+    public void OpenSettings()
+    {
+        StartCoroutine(OpenSettingsRoutine());
+    }
+
+    IEnumerator OpenSettingsRoutine()
+    {
+        UIAudioManager.Instance.PlayButtonSound();
+
+        yield return new WaitForSeconds(0.15f);
+
+        SceneManager.LoadScene("Settings");
     }
 }
