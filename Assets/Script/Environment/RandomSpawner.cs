@@ -52,11 +52,8 @@ public class RandomSpawner : MonoBehaviour
             Random.Range(minPosition.y, maxPosition.y)
         );
 
+        GameObject trash = Instantiate(prefab, randomPosition, Quaternion.identity);
 
-        Instantiate(
-            prefab,
-            randomPosition,
-            Quaternion.identity
-        );
+        TrashManager.Instance.RegisterTrash();
     }
 }
