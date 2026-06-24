@@ -40,14 +40,23 @@ public class ToolController : MonoBehaviour
     {
         switch (playerTools.currentTool)
         {
-            case ToolType.Vacuum:
-                UseVacuum();
+            case ToolType.None:
+                CollectTrash(0.5f);
                 break;
 
             case ToolType.Sweep:
                 UseBroom();
                 break;
+
+            case ToolType.Vacuum:
+                UseVacuum();
+                break;
         }
+    }
+
+    bool CanCollect(ToolType playerTool, ToolType requiredTool)
+    {
+        return (int)playerTool >= (int)requiredTool;
     }
 
 
@@ -75,23 +84,32 @@ public class ToolController : MonoBehaviour
 
         foreach (Collider2D trash in trashObjects)
         {
-            Collectable item =
-                trash.GetComponent<Collectable>();
-
+            Collectable item = trash.GetComponent<Collectable>();
 
             if (item != null)
             {
-                bool success = inventory.AddItem(item.itemName, item.amount, item.coinValue);
+                if (!CanCollect(
+                    playerTools.currentTool,
+                    item.requiredTool))
+                {
+                    inventoryMessage.ShowMessage(
+                        "Membutuhkan " +
+                        item.requiredTool
+                    );
+
+                    continue;
+                }
+
+                bool success =
+                    inventory.AddItem(
+                        item.itemName,
+                        item.amount,
+                        item.coinValue
+                    );
 
                 if (success)
                 {
                     Destroy(trash.gameObject);
-                }
-                else
-                {
-                    inventoryMessage.ShowMessage(
-                        "Inventory Sudah Penuh!"
-                    );
                 }
             }
         }

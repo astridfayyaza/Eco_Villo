@@ -108,6 +108,7 @@ MonoBehaviour:
   itemName: scrap
   amount: 1
   coinValue: 15
+  requiredTool: 1
 --- !u!61 &-7435403830322342507
 BoxCollider2D:
   m_ObjectHideFlags: 0

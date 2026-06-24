@@ -108,6 +108,7 @@ MonoBehaviour:
   itemName: can
   amount: 1
   coinValue: 5
+  requiredTool: 1
 --- !u!61 &-2159734737024563574
 BoxCollider2D:
   m_ObjectHideFlags: 0
