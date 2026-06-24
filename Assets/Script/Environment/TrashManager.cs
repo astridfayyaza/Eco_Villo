@@ -11,6 +11,7 @@ public class TrashManager : MonoBehaviour
 
     public TextMeshProUGUI progressText;
 
+    public LevelManager levelManager;
 
     private void Awake()
     {
@@ -34,9 +35,7 @@ public class TrashManager : MonoBehaviour
 
         if (cleanedTrash >= totalTrash)
         {
-            Debug.Log(
-                "Area Bersih!"
-            );
+            levelManager.CompleteLevel();
         }
     }
 

@@ -108,6 +108,7 @@ MonoBehaviour:
   itemName: paper
   amount: 1
   coinValue: 2
+  requiredTool: 0
 --- !u!61 &-154791312078543576
 BoxCollider2D:
   m_ObjectHideFlags: 0

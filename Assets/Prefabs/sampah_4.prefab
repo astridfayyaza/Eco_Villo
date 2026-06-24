@@ -108,6 +108,7 @@ MonoBehaviour:
   itemName: bottle
   amount: 1
   coinValue: 10
+  requiredTool: 0
 --- !u!61 &-4566008635402315396
 BoxCollider2D:
   m_ObjectHideFlags: 0
