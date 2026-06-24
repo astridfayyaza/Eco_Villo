@@ -20,23 +20,23 @@ public class PlayerInventory : MonoBehaviour
 
     public int currentAmount = 0;
 
-    public bool AddItem(
-        string itemName,
-        int amount,
-        int coinValue
-    )
+    public bool AddItem(string itemName, int amount, int coinValue)
     {
-        if (currentAmount + amount > maxCapacity)
+        int totalItems = 0;
+
+        foreach (var item in items)
+        {
+            totalItems += item.amount;
+        }
+
+        if (totalItems >= maxCapacity)
         {
             Debug.Log("Inventory penuh!");
-
             return false;
         }
 
         InventoryItem existingItem =
-            items.Find(item =>
-                item.itemName == itemName
-            );
+            items.Find(i => i.itemName == itemName);
 
         if (existingItem != null)
         {
@@ -44,21 +44,13 @@ public class PlayerInventory : MonoBehaviour
         }
         else
         {
-            InventoryItem newItem =
-                new InventoryItem();
-
-            newItem.itemName = itemName;
-            newItem.amount = amount;
-            newItem.coinValue = coinValue;
-
-            items.Add(newItem);
+            items.Add(new InventoryItem
+            {
+                itemName = itemName,
+                amount = amount,
+                coinValue = coinValue
+            });
         }
-
-        currentAmount += amount;
-
-        Debug.Log(
-            itemName + " x" + amount
-        );
 
         return true;
     }
