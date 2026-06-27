@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class UIAudioManager : MonoBehaviour
@@ -27,5 +28,10 @@ public class UIAudioManager : MonoBehaviour
         {
             audioSource.PlayOneShot(buttonSound);
         }
+    }
+
+    internal void SetSFXVolume(float value)
+    {
+        throw new NotImplementedException();
     }
 }

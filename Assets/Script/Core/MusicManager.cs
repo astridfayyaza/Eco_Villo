@@ -7,6 +7,7 @@ public class MusicManager : MonoBehaviour
     public AudioSource audioSource;
 
     public AudioClip[] playlist;
+    private bool isPaused = false;
 
     private int currentTrack = 0;
 
@@ -25,12 +26,14 @@ public class MusicManager : MonoBehaviour
 
     private void Start()
     {
+        audioSource.volume = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
+
         PlayCurrentTrack();
     }
 
     private void Update()
     {
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && !isPaused)
         {
             NextTrack();
         }
@@ -52,5 +55,22 @@ public class MusicManager : MonoBehaviour
         }
 
         PlayCurrentTrack();
+    }
+
+    public void SetVolume(float volume)
+    {
+        audioSource.volume = volume;
+    }
+
+    public void PauseMusic()
+    {
+        isPaused = true;
+        audioSource.Pause();
+    }
+
+    public void ResumeMusic()
+    {
+        isPaused = false;
+        audioSource.UnPause();
     }
 }

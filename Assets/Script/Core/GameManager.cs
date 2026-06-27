@@ -5,7 +5,10 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+
     public GameObject pausePanel;
+    public VolumeSettings volumeSettings;
+
 
     public void Update()
     {
@@ -50,12 +53,23 @@ public class GameManager : MonoBehaviour
         if (!pausePanel.activeSelf)
         {
             pausePanel.SetActive(true);
+
             Time.timeScale = 0f;
+
+            if (MusicManager.Instance != null)
+                MusicManager.Instance.PauseMusic();
         }
         else
         {
+            if (volumeSettings != null)
+                volumeSettings.CancelChanges();
+
             pausePanel.SetActive(false);
+
             Time.timeScale = 1f;
+
+            if (MusicManager.Instance != null)
+                MusicManager.Instance.ResumeMusic();
         }
     }
 
@@ -66,9 +80,20 @@ public class GameManager : MonoBehaviour
 
     IEnumerator MainMenuRoutine()
     {
-        UIAudioManager.Instance.PlayButtonSound();
+        if (UIAudioManager.Instance != null)
+            UIAudioManager.Instance.PlayButtonSound();
 
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSecondsRealtime(0.15f);
+
+        if (volumeSettings != null)
+            volumeSettings.CancelChanges();
+
+        Time.timeScale = 1f;
+
+        if (MusicManager.Instance != null)
+        {
+            Destroy(MusicManager.Instance.gameObject);
+        }
 
         SceneManager.LoadScene("MainMenu");
     }
