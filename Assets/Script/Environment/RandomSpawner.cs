@@ -1,24 +1,22 @@
 using UnityEngine;
 
-[System.Serializable]
-public class TrashData
-{
-    public GameObject prefab;
-
-    [Range(0, 100)]
-    public int percentage;
-}
-
-
 public class RandomSpawner : MonoBehaviour
 {
-    public TrashData[] props;
+    [Header("Trash Prefabs")]
+    public GameObject[] props;
 
+    [Header("Spawn Settings")]
     public int amount = 20;
-
 
     public Vector2 minPosition;
     public Vector2 maxPosition;
+
+    [Header("Obstacle Check")]
+    public LayerMask obstacleLayer;
+
+    public float checkRadius = 0.3f;
+
+    public int maxAttempts = 50;
 
 
     void Start()
@@ -29,31 +27,75 @@ public class RandomSpawner : MonoBehaviour
 
     void SpawnProps()
     {
-        foreach (TrashData trash in props)
+        int spawnedCount = 0;
+        int attempts = 0;
+
+        while (spawnedCount < amount &&
+               attempts < amount * maxAttempts)
         {
-            int spawnAmount =
-                Mathf.RoundToInt(
-                    amount * (trash.percentage / 100f)
+            attempts++;
+
+            Vector2 randomPosition =
+                new Vector2(
+                    Random.Range(
+                        minPosition.x,
+                        maxPosition.x
+                    ),
+                    Random.Range(
+                        minPosition.y,
+                        maxPosition.y
+                    )
                 );
 
+            Collider2D hit =
+                Physics2D.OverlapCircle(
+                    randomPosition,
+                    checkRadius,
+                    obstacleLayer
+                );
 
-            for (int i = 0; i < spawnAmount; i++)
+            bool blocked = hit != null;
+
+            if (!blocked)
             {
-                SpawnObject(trash.prefab);
+                int randomIndex =
+                    Random.Range(
+                        0,
+                        props.Length
+                    );
+
+                Instantiate(
+                    props[randomIndex],
+                    randomPosition,
+                    Quaternion.identity
+                );
+
+                spawnedCount++;
             }
         }
+
+        Debug.Log(
+            "Spawned Trash: " +
+            spawnedCount +
+            "/" +
+            amount
+        );
     }
 
 
-    void SpawnObject(GameObject prefab)
+    private void OnDrawGizmosSelected()
     {
-        Vector2 randomPosition = new Vector2(
-            Random.Range(minPosition.x, maxPosition.x),
-            Random.Range(minPosition.y, maxPosition.y)
+        Gizmos.color = Color.yellow;
+
+        Vector2 center =
+            (minPosition + maxPosition) / 2;
+
+        Vector2 size =
+            maxPosition - minPosition;
+
+        Gizmos.DrawWireCube(
+            center,
+            size
         );
-
-        GameObject trash = Instantiate(prefab, randomPosition, Quaternion.identity);
-
-        TrashManager.Instance.RegisterTrash();
     }
 }
