@@ -5,7 +5,6 @@ using TMPro;
 public class CharacterSelect : MonoBehaviour
 {
     public GameObject bingkaiJohny;
-    public GameObject bingkaiLuna;
 
     public TMP_InputField nameInput;
 
@@ -14,10 +13,9 @@ public class CharacterSelect : MonoBehaviour
 
     void Start()
     {
-        bingkaiJohny.SetActive(false);
-        bingkaiLuna.SetActive(false);
+        bingkaiJohny.SetActive(true);
 
-        selectedCharacter = "";
+        selectedCharacter = "Johny";
         playerName = "";
     }
 
@@ -26,16 +24,9 @@ public class CharacterSelect : MonoBehaviour
         selectedCharacter = "Johny";
 
         bingkaiJohny.SetActive(true);
-        bingkaiLuna.SetActive(false);
+  
     }
 
-    public void PilihLuna()
-    {
-        selectedCharacter = "Luna";
-
-        bingkaiLuna.SetActive(true);
-        bingkaiJohny.SetActive(false);
-    }
 
     public void StartJourney()
     {
@@ -62,15 +53,8 @@ public class CharacterSelect : MonoBehaviour
                 System.DateTime.Now.ToString("dd/MM/yyyy HH:mm"));
         }
 
-        if (SaveSlotManager.selectedSlot == 2)
-        {
-            PlayerPrefs.SetString("SaveSlot2_Name", playerName);
-            PlayerPrefs.SetString("SaveSlot2_Character", selectedCharacter);
-            PlayerPrefs.SetString("SaveSlot2_Date",
-                System.DateTime.Now.ToString("dd/MM/yyyy HH:mm"));
-        }
 
         PlayerPrefs.Save();
-        SceneManager.LoadScene("Eco_Villo");
+        SceneManager.LoadScene("Level1");
     }
 }
