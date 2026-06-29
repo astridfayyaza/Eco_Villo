@@ -9,6 +9,8 @@ public class TrashManager : MonoBehaviour
 
     public int cleanedTrash;
 
+    public int cleanlinessPercent;
+
     public TextMeshProUGUI progressText;
 
     public LevelManager levelManager;
@@ -30,10 +32,11 @@ public class TrashManager : MonoBehaviour
     public void CleanTrash()
     {
         cleanedTrash++;
+        cleanlinessPercent = Mathf.Clamp(cleanlinessPercent + 1, 0, 100);
 
         UpdateUI();
 
-        if (cleanedTrash >= totalTrash)
+        if (cleanlinessPercent >= 100)
         {
             levelManager.CompleteLevel();
         }
@@ -42,16 +45,9 @@ public class TrashManager : MonoBehaviour
 
     void UpdateUI()
     {
-        float percentage =
-            ((float)cleanedTrash /
-             totalTrash) * 100f;
-
-
         progressText.text =
             "Kebersihan : " +
-            Mathf.RoundToInt(
-                percentage
-            ) +
+            cleanlinessPercent +
             "%";
     }
 }

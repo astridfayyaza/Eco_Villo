@@ -13,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (currentItem != null)
             {
@@ -25,7 +25,13 @@ public class PlayerInteraction : MonoBehaviour
 
                 if (success)
                 {
+                    if (TrashManager.Instance != null)
+                    {
+                        TrashManager.Instance.CleanTrash();
+                    }
+
                     Destroy(currentItem.gameObject);
+                    currentItem = null;
                 }
             }
         }
