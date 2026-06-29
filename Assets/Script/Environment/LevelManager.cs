@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class LevelManager : MonoBehaviour
 {
     public GameObject winPanel;
@@ -46,5 +47,21 @@ public class LevelManager : MonoBehaviour
         {
             Debug.Log("Semua level selesai");
         }
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex
+        );
+    }
+
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene("MainMenu");
     }
 }

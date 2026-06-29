@@ -71,6 +71,11 @@ public class RandomSpawner : MonoBehaviour
                 );
 
                 spawnedCount++;
+
+                if (TrashManager.Instance != null)
+                {
+                    TrashManager.Instance.RegisterTrash();
+                }
             }
         }
 

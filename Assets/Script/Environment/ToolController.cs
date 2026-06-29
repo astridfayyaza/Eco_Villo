@@ -109,7 +109,7 @@ public class ToolController : MonoBehaviour
 
                 if (success)
                 {
-                    TrashManager.Instance.CleanTrash();
+                    TrashManager.Instance.TrashCollected();
 
                     Destroy(trash.gameObject);
                 }

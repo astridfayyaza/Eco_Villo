@@ -5,49 +5,77 @@ public class TrashManager : MonoBehaviour
 {
     public static TrashManager Instance;
 
+    public TextMeshProUGUI percentText;
+
+    [HideInInspector]
     public int totalTrash;
 
-    public int cleanedTrash;
-
-    public int cleanlinessPercent;
-
-    public TextMeshProUGUI progressText;
-
-    public LevelManager levelManager;
+    private int collectedTrash;
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
     }
 
+    public LevelManager levelManager;
+
+    void Start()
+    {
+        UpdateUI();
+    }
 
     public void RegisterTrash()
     {
         totalTrash++;
-
         UpdateUI();
     }
 
-
-    public void CleanTrash()
+    public void TrashCollected()
     {
-        cleanedTrash++;
-        cleanlinessPercent = Mathf.Clamp(cleanlinessPercent + 1, 0, 100);
+        collectedTrash++;
+
+        if (collectedTrash > totalTrash)
+            collectedTrash = totalTrash;
 
         UpdateUI();
 
-        if (cleanlinessPercent >= 100)
+        if (collectedTrash >= totalTrash)
         {
+            Debug.Log("Level Selesai!");
+
             levelManager.CompleteLevel();
         }
     }
 
-
     void UpdateUI()
     {
-        progressText.text =
+        if (percentText == null)
+            return;
+
+        if (totalTrash == 0)
+        {
+            percentText.text = "Kebersihan : 0%";
+            return;
+        }
+
+        float percent =
+            (float)collectedTrash /
+            totalTrash * 100f;
+
+        percentText.text =
             "Kebersihan : " +
-            cleanlinessPercent +
+            Mathf.RoundToInt(percent) +
             "%";
+    }
+
+    public void ResetLevel()
+    {
+        totalTrash = 0;
+        collectedTrash = 0;
+
+        UpdateUI();
     }
 }

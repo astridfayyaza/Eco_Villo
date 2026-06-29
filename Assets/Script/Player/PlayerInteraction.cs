@@ -27,7 +27,7 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     if (TrashManager.Instance != null)
                     {
-                        TrashManager.Instance.CleanTrash();
+                        TrashManager.Instance.TrashCollected();
                     }
 
                     Destroy(currentItem.gameObject);
