@@ -319,7 +319,7 @@ MonoBehaviour:
   - {fileID: 3172590840769700799, guid: c6ea63db6f6c7744fa1f22944b4465ea, type: 3}
   - {fileID: 3819038577423404017, guid: 48db362e099f1f741bacdb98699d4651, type: 3}
   - {fileID: 4516902364575857456, guid: f540d3c6ab776424ab3f290599e16628, type: 3}
-  amount: 1
+  amount: 30
   minPosition: {x: -22, y: 13}
   maxPosition: {x: 23, y: -13}
   obstacleLayer:
