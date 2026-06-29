@@ -759,7 +759,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -781,11 +787,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 41c02af1-44f4-48b6-bdfe-1c0cd6800afb
+  cloudProjectId: e7d3ff6b-8a97-4970-8619-43fdfb730bc5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Eco Villo 2026-05-04_14-50-39
-  organizationId: astridfayy
+  projectName: Eco Villo
+  organizationId: dzakaalif30
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

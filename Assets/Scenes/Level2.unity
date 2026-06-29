@@ -1965,8 +1965,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Coins: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 91d1b523be2f8cc4291d14ba9caba528, type: 2}
-  m_sharedMaterial: {fileID: -5650456364048509346, guid: 91d1b523be2f8cc4291d14ba9caba528, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c1a2bfdfdd855fc4e9cef694eec3dc06, type: 2}
+  m_sharedMaterial: {fileID: 617322652665340561, guid: c1a2bfdfdd855fc4e9cef694eec3dc06, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
