@@ -1128,7 +1128,7 @@ AudioSource:
   m_GameObject: {fileID: 1174799204}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8275740256587060646, guid: 9348a34f0276bfc46bcf15621f97667c, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -1649,7 +1649,7 @@ AudioSource:
   m_GameObject: {fileID: 1366468773}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1251034520388471867, guid: 9348a34f0276bfc46bcf15621f97667c, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -1750,9 +1750,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   audioSource: {fileID: 1366468774}
-  playlist:
+  menuPlaylist:
   - {fileID: 8300000, guid: d562140b0ce05b94b9ddf60a4bd9c441, type: 3}
   - {fileID: 8300000, guid: 113915041e9f82d40a9e5f0862ba0782, type: 3}
+  level1Music: {fileID: 8300000, guid: 0cca53f839b66cc43ac0f99430e1b743, type: 3}
+  level2Music: {fileID: 8300000, guid: 0cca53f839b66cc43ac0f99430e1b743, type: 3}
 --- !u!4 &1366468776
 Transform:
   m_ObjectHideFlags: 0

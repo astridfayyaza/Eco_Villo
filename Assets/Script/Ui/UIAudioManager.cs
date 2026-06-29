@@ -30,8 +30,11 @@ public class UIAudioManager : MonoBehaviour
         }
     }
 
-    internal void SetSFXVolume(float value)
+    public void SetSFXVolume(float value)
     {
-        throw new NotImplementedException();
+        if (audioSource != null)
+        {
+            audioSource.volume = value;
+        }
     }
 }
