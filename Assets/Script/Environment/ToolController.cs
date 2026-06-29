@@ -109,6 +109,8 @@ public class ToolController : MonoBehaviour
 
                 if (success)
                 {
+                    Debug.Log("Trash berhasil diambil");
+
                     TrashManager.Instance.TrashCollected();
 
                     Destroy(trash.gameObject);

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class RandomSpawner : MonoBehaviour
 {
@@ -19,11 +20,12 @@ public class RandomSpawner : MonoBehaviour
     public int maxAttempts = 50;
 
 
-    void Start()
+    IEnumerator Start()
     {
+        yield return null;
+
         SpawnProps();
     }
-
 
     void SpawnProps()
     {

@@ -319,7 +319,7 @@ MonoBehaviour:
   - {fileID: 3172590840769700799, guid: c6ea63db6f6c7744fa1f22944b4465ea, type: 3}
   - {fileID: 3819038577423404017, guid: 48db362e099f1f741bacdb98699d4651, type: 3}
   - {fileID: 4516902364575857456, guid: f540d3c6ab776424ab3f290599e16628, type: 3}
-  amount: 30
+  amount: 1
   minPosition: {x: -22, y: 13}
   maxPosition: {x: 23, y: -13}
   obstacleLayer:
@@ -1994,7 +1994,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Kebersihan : 0%'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c1a2bfdfdd855fc4e9cef694eec3dc06, type: 2}
   m_sharedMaterial: {fileID: 617322652665340561, guid: c1a2bfdfdd855fc4e9cef694eec3dc06, type: 2}
@@ -2060,7 +2060,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -110.79591, w: 0}
+  m_margin: {x: 0, y: 0, z: -148.49704, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2530,7 +2530,7 @@ MonoBehaviour:
   tools:
   - toolName: Sapu
     toolType: 1
-    price: 10
+    price: 30
 --- !u!1 &931289311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,9 +2781,8 @@ GameObject:
   - component: {fileID: 1017224951}
   - component: {fileID: 1017224950}
   - component: {fileID: 1017224949}
-  - component: {fileID: 1017224952}
   m_Layer: 0
-  m_Name: GameManager (1)
+  m_Name: TrashManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2833,19 +2832,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1017224952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017224948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f4aa9a3d8e97344a45176743af2d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelProgress
-  unlockedLevel: 1
 --- !u!1 &1027411512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7861,7 +7847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
   items: []
   maxCapacity: 5
-  currentAmount: 150
+  currentAmount: 0
 --- !u!114 &1349444532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10939,6 +10925,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544732344}
   m_CullTransparentMesh: 1
+--- !u!1 &1561429400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561429402}
+  - component: {fileID: 1561429401}
+  m_Layer: 0
+  m_Name: LevelProgress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1561429401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561429400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f4aa9a3d8e97344a45176743af2d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelProgress
+  unlockedLevel: 1
+--- !u!4 &1561429402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561429400}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.8706, y: 7.36539, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578934117
 GameObject:
   m_ObjectHideFlags: 0
@@ -47082,3 +47113,4 @@ SceneRoots:
   - {fileID: 910618304}
   - {fileID: 929279937}
   - {fileID: 1017224951}
+  - {fileID: 1561429402}

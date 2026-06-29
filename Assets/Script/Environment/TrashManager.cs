@@ -12,24 +12,27 @@ public class TrashManager : MonoBehaviour
 
     private int collectedTrash;
 
-    private void Awake()
-    {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(gameObject);
-    }
-
     public LevelManager levelManager;
 
-    void Start()
+    private void Awake()
     {
-        UpdateUI();
+        Debug.Log("TrashManager dibuat : " + gameObject.name);
+
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
     }
 
     public void RegisterTrash()
     {
         totalTrash++;
+
+        Debug.Log("Register Trash : " + totalTrash);
+
         UpdateUI();
     }
 
@@ -37,12 +40,14 @@ public class TrashManager : MonoBehaviour
     {
         collectedTrash++;
 
+        Debug.Log("Collected : " + collectedTrash + " / " + totalTrash);
+
         if (collectedTrash > totalTrash)
             collectedTrash = totalTrash;
 
         UpdateUI();
 
-        if (collectedTrash >= totalTrash)
+        if (totalTrash > 0 && collectedTrash >= totalTrash)
         {
             Debug.Log("Level Selesai!");
 

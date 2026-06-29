@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
 
         if (nextScene < SceneManager.sceneCountInBuildSettings)
         {
-            SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene("Level2");
         }
         else
         {
